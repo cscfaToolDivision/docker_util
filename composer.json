@@ -1,32 +1,30 @@
 {
-    "name" : "cscfa_tool_division/docker_util",
-    "type" : "symfony-bundle",
-    "version" : "1.0.0",
-    "keywords" : [
-        "bundle",
-        "docker",
-        "cscfa",
-        "tool",
-        "division"
-    ],
-    "homepage" : "http://cscfa.fr",
-    "license" : "MIT",
-    "authors" : [
-        {
-            "name" : "Matthieu VALLANCE",
-            "email" : "matthieu.vallance@cscfa.fr"
-        }
-    ],
-    "autoload" : {
-        "psr-4" : {
-            "CSDT\\DockerUtilBundle\\" : "src/CSDT/DockerUtilBundle/"
-        }
-    },
-    "require" : {
-        "symfony/symfony" : "~3.0@stable",
-        "cscfa_tool_division/collections" : "dev-master",
-        "docker-php/docker-php" : "1.*@stable",
-        "myclabs/deep-copy" : "1.*@stable"
-    }
+	"name" : "cscfa_tool_division/docker_util",
+	"type" : "symfony-bundle",
+	"version" : "1.1.0",
+	"keywords" : [
+		"bundle",
+		"docker",
+		"cscfa",
+		"tool",
+		"division"
+	],
+	"homepage" : "http://cscfa.fr",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Matthieu VALLANCE",
+			"email" : "matthieu.vallance@cscfa.fr"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"CSDT\\DockerUtilBundle\\" : "src/CSDT/DockerUtilBundle/"
+		}
+	},
+	"require" : {
+		"symfony/symfony" : "~3.0@stable",
+		"cscfa_tool_division/collections" : "dev-master",
+		"docker-php/docker-php" : "1.*@stable",
+		"myclabs/deep-copy" : "1.*@stable"
+	}
 }
-
