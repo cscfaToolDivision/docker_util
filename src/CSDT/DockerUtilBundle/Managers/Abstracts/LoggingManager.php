@@ -41,7 +41,7 @@ abstract class LoggingManager
      *
      * @return void
      */
-    protected function setLogger(LoggerInterface $logger)
+    protected function setLogger(LoggerInterface $logger = null)
     {
         if ($logger instanceof Logger) {
             $this->logger = $logger->withName($this->getName());
