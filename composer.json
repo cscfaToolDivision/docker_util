@@ -23,7 +23,7 @@
         }
     },
     "require" : {
-        "symfony/symfony" : "~3.2@stable",
+        "symfony/symfony" : "~3.0@stable",
         "cscfa_tool_division/collections" : "dev-master",
         "docker-php/docker-php" : "1.*@stable",
         "myclabs/deep-copy" : "1.*@stable"
